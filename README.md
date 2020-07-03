@@ -5,7 +5,7 @@ Home: https://github.com/ncopa/su-exec
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Switch user and group id and exec
 

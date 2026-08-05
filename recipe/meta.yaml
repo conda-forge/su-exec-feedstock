@@ -3,7 +3,7 @@
 
 package:
   name: su-exec
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   fn: su-exec-{{ version }}.tar.gz

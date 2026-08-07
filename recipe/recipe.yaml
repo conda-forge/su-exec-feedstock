@@ -23,8 +23,10 @@ requirements:
     - make
 
 tests:
+  - package_contents:
+      bin:
+        - su-exec
   - script:
-      - which su-exec
       - su-exec --help
 
 about:

@@ -1,5 +1,5 @@
-{% set version = "0.2" %}
-{% set sha256 = "ec4acbd8cde6ceeb2be67eda1f46c709758af6db35cacbcde41baac349855e25" %}
+{% set version = "0.3" %}
+{% set sha256 = "1de7479857879b6d14772792375290a87eac9a37b0524d39739a4a0739039620" %}
 
 package:
   name: su-exec
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1004
+  number: 0
   skip: true  # [not linux]
 
 requirements:
